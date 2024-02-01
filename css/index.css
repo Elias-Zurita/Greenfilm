@@ -1,0 +1,383 @@
+.carousel-caption{
+    bottom: 45%;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align:start;
+    left: 10%;
+}
+.subtituloCarrousel{
+    font-size:20px;
+}
+.tituloCarousel{
+    font-size: 65px;
+    font-weight:bold;
+}
+.botonCarousel button{
+    color: #fff;
+    background-color: #343a40;
+    border: none;
+    padding: 15px 35px;
+    font-size: 15px;
+}
+.botonCarousel button:hover{
+    background: #9b1c43;
+    color: white;
+}
+.cajaPadreServicios{
+    border: 1px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.servicio{
+    display: flex;
+    margin: 25px 20px 25px 20px;
+    border: grey solid 2px;
+    width: 300px;
+}
+.iconoServicio{
+    padding-right: 20px;
+    padding-top: 5px;
+    font-size: 48px;
+    color: #00ADEE;
+}
+.tituloServicio{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 14px;
+    font-weight: bold;
+}
+.descripcionServicio{
+    font-size: 14px;
+    margin-top: 15px;
+    font-family: "Poppins";
+    color: #878787;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sobreNosotrosIndex{
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins";
+    align-items: center;
+    width: 100%;
+    padding:0 auto;
+}
+.logoNosotrosIndex{
+    width: 450px;
+}
+.logoNosotrosIndex img{
+    width: 100%;
+}
+.leeIndex{
+    color: #9b1c43;
+    font-weight: bold;
+}
+.somosIndex{
+    font-size:40px;
+    color: #9b1c43;
+    font-weight: bold;
+}
+.comercializadoraIndex{
+    font-size:25px;
+    font-style: italic;
+}
+.textosNosotrosIndex{
+    width: 35%;
+    padding-left: 2%;
+}
+.somosIndexTexto{
+    font-size: 18px
+}
+.cajaPadreOfrecemos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cajaServicio{
+    background-color: #343a40;
+    color: #fff;
+    height: 240px;
+    text-align: center;
+    margin: 20px;
+    padding: 50px 25px;
+    transition: ease-in-out 0.3s
+}
+
+.textoServicio{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+.cajaServicio:hover{
+    background: #9b1c43;
+    box-shadow: 0 0 30px #CCCCCC;
+    transform: translateY(-10px); 
+}
+.cajaPadreExperiencia{
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    font-family: "Poppins", sans-serif;
+}
+.cajaTrofeo{
+    background:rgb(128, 128, 128);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 600px
+}
+.cajaTrofeo i{
+    font-size:180px
+}
+.numeroAños{
+    font-size: 80px;
+    font-weight: bold;
+}
+.textoAños{
+    font-size: 40px;
+    font-weight: bold;
+}
+.cajaSomosDistintos{
+    width: 600px;
+    margin-right: 50px;
+}
+.subtituloDistintos{
+    color:#9b1c43;
+    font-weight: bold;
+}
+.tituloDistintos{
+    color:#9b1c43;
+    font-size: 35px;
+    font-weight: bold;
+}
+.textoDistintos{
+    margin: 10px 0 20px 0;
+}
+.contador{
+    font-size: 30px;
+    font-weight: bold;
+    color: #9b1c43
+}
+.tituloContador{
+    font-weight: bold;
+    font-size: 18px;
+}
+.cajaProcesosPadre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    flex-wrap: wrap;
+}
+.cajaProceso{
+    margin: 15px;
+    width: 250px;
+    height: 250px;
+}
+.numeroProceso{
+    font-size: 80px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    border: 1px solid #dee2e6 !important;
+    width: 150px;
+    height: 150px;
+    border-width: 15px !important;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+.descripcionProceso{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.subtituloTestimonios{
+    font-family: "Open Sans", sans-serif;
+    color: #9b1c43;
+    text-align: center;
+    margin-top: 50px;
+}
+.carrouselTestimonios{
+    object-fit: cover;
+    width: 1100px;
+    margin: 0 auto;
+}
+.testimonio{
+    text-align: center;
+    position: relative;
+}
+.imagenCliente img{
+    width: 100px; 
+    height: 100px;
+}
+.imagenCliente{
+    position: absolute;
+    right: 35%;
+    bottom: 85%;
+}
+.cajaTextoTextimonio{
+    height: 250px;
+    display: flex;
+    padding-top: 27px;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.testimonial-carousel .owl-item.center .cajaTextoTextimonio {
+    box-shadow: 0 0 30px #CCCCCC;
+  }
+.testimonial-carousel .owl-dots {
+    margin-top: 25px;
+    text-align: center;
+}
+.testimonial-carousel .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 20px;
+    height: 20px;
+    background: #343a40;
+    transition: .5s;
+}
+.testimonial-carousel .owl-dot.active {  /* boton de navegacion activo */
+    width: 40px;
+    background: #9b1c43 !important;;
+}
+.testimonial-carousel .owl-item.center .testimonial-text {
+    box-shadow: 0 0 30px #CCCCCC;
+}
+@media(max-width:1100px){
+    .sobreNosotrosIndex{
+        flex-direction: column;
+    }
+    .textosNosotrosIndex{
+        margin-top: 30px;
+        width: 550px;
+    }
+    .cajaPadreExperiencia{
+        flex-direction: column;
+    }
+    .cajaSomosDistintos{
+        width: 90%;
+        margin: 0 auto 30px auto;
+    }
+    .cajaTrofeo{
+        width: 90%;
+    }
+    .carrouselTestimonios{
+        width: 80%;
+    }
+}
+@media(max-width:600px){
+    .cajaServicio{
+        width: 150px;
+        height: 200px;
+    }
+    .textoServicio{
+        font-size: 16px;
+    }
+    .logoNosotrosIndex{
+        width: 100%;
+    }
+    .textosNosotrosIndex{
+        width: 95%;
+    }
+}
+@media(max-width:400px){
+    .cajaPadreExperiencia {
+        margin: 50px auto;
+        width: 100%;
+    }
+    .cajaServicio{
+        width: 90%;
+        padding: 25px 25px;
+    }
+    .cajaTrofeo{
+        height: 400px;
+    }
+    .cajaTrofeo i{
+        font-size: 135px;
+    }
+    .numeroAños{
+        font-size: 65px;
+    }
+    .textoAños{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .somosIndex{
+        font-size: 30px;
+    }
+    .comercializadoraIndex{
+        font-size: 22px;
+    }
+    .tituloDistintos{
+        font-size: 30px;
+    }
+    .cajaProceso{
+        width:210px;
+        height: 195px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .numeroProceso{
+        font-size: 60px;
+        width: 115px;
+        height: 115px;
+    }
+    .descripcionProceso{
+        font-size: 18px;
+    }
+    .carrouselTestimonios{
+        margin-left: 15px;
+        margin-right:15px;
+        width: 95%;
+    }
+}
