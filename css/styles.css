@@ -26,3 +26,11 @@ h3{
     font-size: 20px;
     color: #878787;
 }
+body{
+    background-image: url(../img/ondastransparente.svg); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+.degradado{
+    background: linear-gradient(160deg, rgba(12, 29, 40, 0.66) 0%, rgba(225, 186, 103, 0.7) 50%, rgba(255, 255, 255, 0.7) 100%);
+}
