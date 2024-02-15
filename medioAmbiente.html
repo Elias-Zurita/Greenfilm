@@ -120,59 +120,112 @@
         </script>
     </header>
 
-    <body>
+    <body class="bodyMedioAmbiente">
         
-        <div class="bannerUbicacion">
-            <div class="tituloBannerUbicacion">CONTACTO Y UBICACIÓN</div>
+        <!--  CAROUSEL BOOTSTRAP -->
+        <div id="carouselExampleDark" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="img/medioAmbiente/H2GQGNYPENBGFBYPWEFMRL444I.avif" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <div class="tituloCarousel">CUIDADO DEL MEDIO AMBIENTE</div>
+                    </div>
+                </div>
+            
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="img/medioAmbiente/sostenibilidad-2048x1365.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <div class="tituloCarousel">SOSTENIBILIDAD</div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
 
         <br>
         <br>
         
-        <div class="mapa">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.429092492296!2d-58.71503302353752!3d-34.44125404893768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca222c25e44ff%3A0xe4e5b63b51e2a63!2sGral.%20Savio%2026%2C%20B1619%20Garin%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1708024030342!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- MODELOS -->
+        <h2 style="color: black; font-weight: bold;">MEDIO AMBIENTE</h2>
+        <h3>Reciclado de Plásticos</h3>
+
+        <br>
+
+        <div class="textoMedioAmbiente">
+            <p>En <strong>Greenfilm</strong>, nos enorgullece liderar iniciativas sostenibles en la industria del polietileno. Abogamos por la responsabilidad ambiental y promovemos activamente el reciclado mecánico como parte fundamental de nuestra operación. Este proceso físico-mecánico no solo permite dar una segunda vida al plástico, sino que también contribuye significativamente a la reducción de residuos.</p>
+            <p>Comprometidos con la ecoeficiencia, trabajamos incansablemente para reutilizar materiales plásticos procedentes de Residuos Sólidos Urbanos y residuos industriales. Nuestra visión va más allá de la producción; aspiramos a ser un agente positivo para el medio ambiente, promoviendo prácticas que contribuyen a la sostenibilidad global.</p>
+            <p>En <strong>Greenfilm</strong>, creemos en la importancia de un enfoque circular para el polietileno, garantizando no solo la calidad de nuestros productos, sino también el bienestar de nuestro planeta. Con cada paso que damos, reafirmamos nuestro compromiso con un futuro más verde y próspero para las generaciones venideras. ¡Únete a nosotros en nuestro viaje hacia un mundo más sostenible!</p>
         </div>
 
-        <div class="contactoPadre">
-            <div class="fila">
-                <!-- Formulario -->
-                <div class="col">
-                    <form action="https://formsubmit.co/iblancolopez73@gmail.com" method="post"> <!-- msj al correo electrónico -->
-                        <input type="text" placeholder="🙂 Nombre y Apellido" name="nombre">
-                        <input type="text" placeholder="📞 Teléfono o Whatsapp" name="telefono">
-                        <input type="text" placeholder="&#128231 Correo Electrónico" name="email">
-                        <textarea name="mensaje" cols="30" rows="10" placeholder="💬 ¿Cómo podemos ayudarte?" name="mensaje"></textarea>
-                        <button>
-                            Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
-                            <span class="overlay"></span>
-                        </button> 
-                    </form>
-                </div>
+        <div class="pasosRecicladoPadre">
+            <div class="pasoReciclado">
+                <img src="img/medioAmbiente/reci1.jpg" alt="">
+                <p>Separación domiciliaria</p>
             </div>
-            <div class="infoFabrica">
-                <div class="cajaInfoFabrica">
-                    <p><strong>DIRECCION: </strong>General Savio 26</p>
-                    <p><strong>LOCALIDAD: </strong>Garin</p>
-                    <p><strong>PROVINCIA: </strong>Buenos Aires</p>
-                    <p><strong>TELÉFONO: </strong>+54 9 11 3492-4547</p>
-                    <p><strong>E-MAIL: </strong>ventas@greenfilm.com</p>
-                    <p><strong>Fax: </strong>011 4444-5555</p>
-                    <p><strong>www.greenfilm.com.ar</strong></p>
-                </div>
+            <div class="flechaReciclado">
+                <img src="img/medioAmbiente/flech1.jpg" alt="">
+            </div>
+            <div class="pasoReciclado">
+                <img src="img/medioAmbiente/reci2.jpg" alt="">
+                <p>Separación domiciliaria</p>
+            </div>
+            <div class="flechaReciclado">
+                <img src="img/medioAmbiente/flech1.jpg" alt="">
+            </div>
+            <div class="pasoReciclado">
+                <img src="img/medioAmbiente/reci3.jpg" alt="">
+                <p>Separación domiciliaria</p>
+            </div>
+            <div class="flechaReciclado">
+                <img src="img/medioAmbiente/flech1.jpg" alt="">
+            </div>
+            <div class="pasoReciclado">
+                <img src="img/medioAmbiente/reci4.jpg" alt="">
+                <p>Separación domiciliaria</p>
             </div>
         </div>
 
-        
+        <div class="bannerGranuladoVerde">
+            <img src="/img/medioAmbiente/bannerPlaneta.png" alt="">
+        </div>
+
+        <div class="seccionSustentabilidad">
+            En <strong>Greenfilm</strong>, reconocemos la importancia de abordar los desafíos ambientales asociados con el uso del plástico y estamos comprometidos con prácticas sostenibles que minimicen nuestro impacto en el medio ambiente. Creemos firmemente en la responsabilidad compartida de promover un futuro más sostenible, y aquí te presentamos nuestro enfoque hacia la sustentabilidad del plástico:
+            <div class="tituloSustentabilidad">1. Reciclaje Innovador:</div>
+            <p>Estamos a la vanguardia del desarrollo y la adopción de tecnologías de reciclaje innovadoras. Trabajamos incansablemente para mejorar los procesos de reciclaje de plástico, transformando los residuos en recursos valiosos y contribuyendo así a la reducción de la contaminación y la conservación de recursos.</p>
+            
+            <div class="tituloSustentabilidad">2. Diseño Ecoeficiente:</div>
+            <p>Adoptamos prácticas de diseño ecoeficiente para minimizar la cantidad de plástico utilizado en nuestros productos. Buscamos constantemente alternativas de embalaje más ligeras, eficientes y respetuosas con el medio ambiente, manteniendo al mismo tiempo la integridad y funcionalidad de nuestros productos.</p>
+            
+            <div class="tituloSustentabilidad">3. Fomento de la Economía Circular::</div>
+            <p>Promovemos activamente la economía circular del plástico. Desde la concepción hasta el fin de vida útil de nuestros productos, trabajamos para cerrar el ciclo, fomentando la reutilización, el reciclaje y la reincorporación de materiales plásticos en nuevos ciclos de producción.</p>
+            
 
 
+            <div class="tituloSustentabilidad">4. Investigación y Desarrollo Sostenible:</div>
+            <p>Invertimos en investigación y desarrollo para descubrir y adoptar materiales plásticos más sostenibles. Buscamos constantemente alternativas biodegradables, compostables y de base biológica que puedan reducir la huella ambiental del plástico.</p>
+            
+            <div class="tituloSustentabilidad">5. Educación y Concienciación:</div>
+            <p>Creemos en la importancia de la educación y la concienciación. Trabajamos activamente para informar a nuestros clientes, colaboradores y la comunidad sobre prácticas sostenibles en el manejo del plástico, alentando un consumo consciente y responsable.</p>
+        </div>
 
+        <div class="textoFinalMa">
+            <p>En <strong>Greenfilm</strong>, estamos comprometidos con la evolución hacia un futuro donde el plástico coexista de manera armoniosa con nuestro entorno. Nuestra dedicación a la sostenibilidad refleja nuestro compromiso con un mundo más limpio, más verde y más equitativo para las generaciones venideras. ¡Juntos, construimos un futuro sustentable!</p>
+        </div>         
 
-
-
-
-
-
-
+    
 
     </body>
 
