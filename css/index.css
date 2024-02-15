@@ -31,7 +31,6 @@
     justify-content:space-around;
     width: 1080px;
     margin: 0 auto 50px auto;
-    border: #0093E9 solid 1px;
 }
 .servicio{
     display: flex;
@@ -49,18 +48,18 @@
     font-family: 'Montserrat', sans-serif;
     line-height: 14px;
     font-weight: bold;
+    color: white;
 }
 .descripcionServicio{
     font-size: 14px;
     margin-top: 15px;
     font-family: "Poppins";
-    color: #878787;
+    color: white;
     font-weight: 300;
 }
 
 /* SECCION BANNER DE MEDIO AMBIENTE */
 .medioAmbienteIndex{
-    border: violet solid 3px;
     overflow: hidden;
     height: 800px;
     display: flex;
@@ -71,7 +70,6 @@
 .maIndex{
     position: absolute;
     display: flex;
-    border: #0093E9 solid 3px;
     width: 850px;
     color: white;
     font-family: "Poppins";
@@ -94,7 +92,6 @@
     padding: 40px;    
 }
 .columnaMaIndex p{
-    border: yellow solid 2px;
     display: flex;
     align-items: center;
     margin-bottom: 30px
@@ -123,15 +120,16 @@
     height: 650px;
     display: flex;
     align-items: center;
-    margin: 150px auto;
+    margin: 150px auto 0 auto;
 }
 .bannerGranulado img{
+    height:80vh;
     width: 100%;
+    object-fit: cover;
 }
 
 /* SECCION ETAPAS */
 .etapasPadre{
-    border: blue solid 2px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -180,7 +178,12 @@
   .etapa:hover .back{
     transform: perspective(500px) rotateY(360deg);
   }
-
+  ion-icon{
+    font-size: 50px;
+  }
+  .etapa i{
+    font-size: 30px;
+  }
 
 
 
@@ -247,31 +250,33 @@
     margin-right: 50px;
 }
 .subtituloDistintos{
-    color:#9b1c43;
+    color:white;
     font-weight: bold;
 }
 .tituloDistintos{
-    color:#9b1c43;
+    color:white;
     font-size: 35px;
     font-weight: bold;
 }
 .textoDistintos{
     margin: 10px 0 20px 0;
+    color: white;
 }
 .contador{
     font-size: 30px;
     font-weight: bold;
-    color: #9b1c43
+    color: #5d7d3c
 }
 .tituloContador{
     font-weight: bold;
     font-size: 18px;
+    color: white;
 }
 
 
 .subtituloTestimonios{
     font-family: "Open Sans", sans-serif;
-    color: #9b1c43;
+    color: white;
     text-align: center;
     margin-top: 50px;
 }
@@ -283,23 +288,22 @@
 .testimonio{
     text-align: center;
     position: relative;
-}
-.imagenCliente img{
-    width: 100px; 
-    height: 100px;
-}
-.imagenCliente{
-    position: absolute;
-    right: 35%;
-    bottom: 85%;
+    padding-top: 0;
 }
 .cajaTextoTextimonio{
-    height: 250px;
+    height: 300px;
     display: flex;
-    padding-top: 27px;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 30px;
     margin-bottom: 10px;
+    background-color: black;
+}
+.cajaTextoTextimonio img{
+    height: 250px;
+}
+.cajaTextoTextimonio div{
+    margin: 10px auto;
+    color: white;
 }
 .testimonial-carousel .owl-item.center .cajaTextoTextimonio {
     box-shadow: 0 0 30px #CCCCCC;
@@ -319,7 +323,7 @@
 }
 .testimonial-carousel .owl-dot.active {  /* boton de navegacion activo */
     width: 40px;
-    background: #9b1c43 !important;;
+    background: white !important;;
 }
 .testimonial-carousel .owl-item.center .testimonial-text {
     box-shadow: 0 0 30px #CCCCCC;
@@ -343,7 +347,30 @@
     }
 }
 
-@media(max-width:400px){
+@media(max-width:900px){
+    .maIndex{
+        flex-direction: column;
+        align-items: center;
+        width: 85%;
+    }
+    .columnaMaIndexIzquierda{
+        border-right: none;
+        width: 450px;
+        padding: 20px;
+    }
+    .columnaMaIndex{
+        width: 450px;
+        padding: 20px
+    }
+    .tecnicaIndex{
+        width: 80%;
+        padding: 20px;
+    }
+}
+@media(max-width:450px){
+    .maIndex, .columnaMaIndexIzquierda, .columnaMaIndex{
+        width: 100%;
+    }
     .cajaPadreExperiencia {
         margin: 50px auto;
         width: 100%;

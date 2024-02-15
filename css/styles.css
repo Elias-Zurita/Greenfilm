@@ -16,7 +16,7 @@ h2{
     font-family: 'Montserrat', sans-serif!important;
     letter-spacing: 1px;
     font-size: 45px;
-    margin-top: 3%;
+    color: white;
 }
 h3{
     text-align: center;
@@ -24,13 +24,18 @@ h3{
     font-weight: 500;
     font-style: italic;
     font-size: 20px;
-    color: #878787;
+    color: white;
 }
 body{
-    background-image: url(../img/ondastransparente.svg); 
-    background-size: cover; 
-    background-repeat: no-repeat; 
+
+    background-color: rgba(12, 29, 40);
 }
 .degradado{
-    background: linear-gradient(160deg, rgba(12, 29, 40, 0.66) 0%, rgba(225, 186, 103, 0.7) 50%, rgba(255, 255, 255, 0.7) 100%);
+
+    background: linear-gradient(160deg, rgba(12, 29, 40, 0.66) 0%, rgba(12, 29, 40, 0.7) 50%, rgba(255, 255, 255, 0.7) 100%);
 }
+/*
+background-image: url(../img/ondastransparente.svg); 
+background-size: cover; 
+background-repeat: no-repeat; 
+*/

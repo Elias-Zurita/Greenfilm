@@ -13,7 +13,7 @@
 .tituloFooter{
     font-family: "Poppins", sans-serif;
     font-weight: bold;
-    color: var(--color-terciario);
+    color: var(--color-primario) !important;
     font-size: 25px;
 }
 .redesFooter{
@@ -32,7 +32,7 @@
     background-color: var(--color-terciario);
 }
 .redesFooter:hover i{
-    color: white;
+    color: black;
     font-weight: bold;
 }
 .cajaDesarrollador{
