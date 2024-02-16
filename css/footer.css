@@ -74,23 +74,17 @@
     .padreColumnasFooter{
         padding: 3% 5% 2% 3%;
         display: flex;
-    }
-    .columnaFooter{
-        width: 25%;
-        color: rgba(255, 255, 255, 0.6) !important;
-    }
-}
-@media (max-width:1200px){ 
-    .padreColumnasFooter{
         flex-direction: column;
     }
     .columnaFooter{
         width: 100%;
         padding-left: 20px;
+        color: rgba(255, 255, 255, 0.6) !important;
     }
 }
 @media (max-width:800px){ 
   .padreColumnasFooter {
     padding-left: 7%;
+    padding-bottom: 35px;
   }
 }

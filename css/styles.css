@@ -4,6 +4,16 @@
     --color-terciario:  #cfdd82; /* Logo */
     --color-cuarto:  #66cdaa;
 }
+/* Scroll personalizado */
+body::-webkit-scrollbar{
+    width: 11px;
+    height: 600px;
+    background: white;
+}
+body::-webkit-scrollbar-thumb{
+    background:var(--color-primario);
+    border-radius: 5px;
+}
 h1{
     text-align: center;
     font-weight: bold;

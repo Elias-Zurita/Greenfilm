@@ -83,6 +83,7 @@
     font-weight: bold;
     text-transform: uppercase;
     color: rgb(57, 174, 86);
+    text-align: start;
 }
 .textoFinalMa{
     padding:50px;
