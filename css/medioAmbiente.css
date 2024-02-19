@@ -58,6 +58,7 @@
     height:60vh;
     width: 100%;
     object-fit: cover;
+    object-position: right /* Enfoca a la derecha al achicar la resolucion */
 }
 .seccionSustentabilidad{
     background-color: white;
@@ -123,5 +124,14 @@
         text-align: justify;
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .pasoReciclado{
+        align-items: center;
+    }
+    .pasoReciclado img{
+        width:200px;
+    }
+    .flechaReciclado img{
+        width: 100px;
     }
 }
