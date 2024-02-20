@@ -1,7 +1,8 @@
 .bannerUbicacion{
     height: 100vh;
-    background-image: url(../img/ubicacion/planeta.jpg);
+    background-image: url(../img/ubicacion/map-pin-location-direction-position-graphic.jpg);
     background-size: cover;
+    background-position: center; /* Centra el fondo */
     text-align: center;
     display: flex;
     align-items: center;
