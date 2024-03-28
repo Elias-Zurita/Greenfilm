@@ -12,10 +12,9 @@
     font-weight:bold;
     text-align: center;
     padding: 3% 5%;
-    background: rgba(42, 49, 48, 0.8);
-    text-shadow: black 0.1em 0.1em 0.2em;
+    text-shadow: var(--color-secundario) 0.1em 0.1em 0.2em;
     width: 70%;
-    color: white;
+    color: black;
 }
 .textoIntroProductos{
     color: white;
