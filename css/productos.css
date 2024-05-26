@@ -148,12 +148,22 @@
     .tituloBannerProducto{
         font-size: 30px;
     }
+    .textoIntroProductos{
+        text-align: justify;
+    }
     .item{
         flex-direction: column;
         margin-bottom: 50px;
     }
     .imagenItem{
         width: 100%;
+        background-color: transparent;
+    }
+    .imagenItem img{
+        width: auto;
+    }
+    .detalleItem{
+        text-align: justify;
     }
     .descripcionItem{
         width: 100%;
@@ -177,5 +187,13 @@
     }
     .tituloItem{
         text-align: center;
+    }
+    .textoFinalProductos{
+        padding: 30px;
+    }
+}
+@media(max-width:360px){
+    .imagenItem img{
+        width: 100%;
     }
 }

@@ -51,6 +51,9 @@
     color: black;
     font-size: 18px;
 }
+.contactoPadre input:hover, .contactoPadre textarea:hover{
+    background-color: #d2d2d2 ;
+}
 .contactoPadre button{
     cursor: pointer;
     background-color: #252A2E;
